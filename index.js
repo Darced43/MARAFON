@@ -14,15 +14,15 @@ const list = [
     },
 ]
 
-// list.forEach(list => console.log(list.priority))
+list.forEach(list => console.log(list.priority))
 
 
-function priority(){
-console.log("priority:");
-list.forEach(function(list){
-    console.log(list.priority)
-})
-}
+// function priority(){
+// console.log("priority:");
+// list.forEach(function(list){
+//     console.log(list.priority)
+// })
+// }
 
 // priority();
 
